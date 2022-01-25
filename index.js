@@ -10,7 +10,7 @@ var map = L.map(
 );
 
 //. 47 都道府県の GeoJSON データを取得
-let 
+let geojsons = [];
 $.ajax({
   url: "./japan.geojson",
   type: "GET",
